@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Nkosinathi Dhanda">
+    <meta name="description"
+        content="A clean, responsive Stats Preview Card component built using vanilla HTML and CSS.">
+    <meta name="theme-color" content="#0A0C1C">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stats Preview Card Component</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/Syntax-Sangoma-Favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <main class="stats-card">
+        <figure class="stats-card__hero-image">
+            <img class="stats-card__mobile-hero" src="./images/image-header-mobile.jpg" alt="mobile hero image"
+                width="654" height="480">
+
+            <img class="responsive-image stats-card__desktop-hero" src="./images/image-header-desktop.jpg"
+                alt="desktop hero image" width="540" height="446">
+
+            <figcaption class="offscreen">image-header</figcaption>
+        </figure>
+
+        <section class="stats-card__content">
+            <h1 class="stats-card__title center">
+                Get <span>insights</span> that help your business grow.
+            </h1>
+
+            <p class="stats-card__description center">
+                Discover the benefits of data analytics and make better decisions regarding revenue, customer
+                experience, and overall efficiency.
+            </p>
+
+            <section class="stats-card__stats-group">
+                <div class="stats-card__stats-item">
+                    <h2 class="stats-card__stat-value center">10k+</h2>
+                    <p class="stats-card__stat-category center">Companies</p>
+                </div>
+
+                <div class="stats-card__stats-item">
+                    <h2 class="stats-card__stat-value center">314</h2>
+                    <p class="stats-card__stat-category center">Templates</p>
+                </div>
+
+                <div class="stats-card__stats-item">
+                    <h2 class="stats-card__stat-value center">12M+</h2>
+                    <p class="stats-card__stat-category center">Queries</p>
+                </div>
+            </section>
+        </section>
+    </main>
+</body>
+
+</html>
