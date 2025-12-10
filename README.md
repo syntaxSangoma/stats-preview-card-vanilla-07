@@ -2,7 +2,7 @@
 
 A clean, responsive Stats Preview Card component built using vanilla HTML and CSS.
 
-![Alt text](./images/image-header-desktop.jpg)
+![Alt text](./images/desktop-design.jpg)
 
 ## Key Features & Benefits
 
